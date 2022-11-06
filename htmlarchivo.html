@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARA APRENDER JAVASCRIPT</title>
+</head>
+<body>
+    ValorAjs: <input type="text" placeholder="indica el valor de A" 
+    id="valorA">
+    
+    <!--EMPIEZA EL SCRIPT DE LAS FUNCIONES JAVASCRIPT-->
+    <script>
+
+        function funcionvergas(){
+            console.log("HOLA MUNDO PERO EN LA CONSOLA")
+        }
+
+        function funcionassert(){
+            var ValorAjs=document.getElementById('valorA').value;
+            console.assert(ValorAjs == 10, "a no vale 10")
+        }
+
+        function functionclear(){
+            console.clear()
+        }
+
+    </script>
+    <!--TERMINA EL SCRIPT DE LAS FUNCIONES JAVASCRIPT-->
+
+    <br>
+    <script>document.write("Hola mundo");</script>
+    <br>
+    <button type="button" onclick="funcionvergas()">CLICK PARA EJECUTAR 
+        UN LOG (DE JAVACSRIPT) EN LA CONSOLA</button>
+    <br>
+    <button type="button" onclick="funcionassert()">EJECUTAR 
+        CONSOLE.ASSERT</button>
+    <br>
+    <button type="button" onclick="functionclear()">LIMPIA LA CONSOLA</button>
+
+</body>
+</html>
