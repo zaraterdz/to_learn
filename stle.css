@@ -1,0 +1,7 @@
+li,li{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    font-size: 4em;
+    list-style: none;
+}
