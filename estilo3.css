@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(0,40,59,255);
+    color: white;
+}
+header > nav > ul, div{
+    border: 1px solid white;
+    width: 33.333%;
+    float: left;
+}
+
+header > nav > div > img{
+    width: 6.25em;
+    margin: 0 0 0 15.62em;
+}
+
+header > nav > ul li{
+    list-style: none;
+    padding: 0;
+    float: left;
+    width: 25%;
+    font-weight: 600;
+}
+
+main > section section{
+    float: right;
+    width: 50%;
+    /* border: 1px solid white; */
+    /* height: 200px; */
+    clear: left;
+    margin-top: 2.5em;
+}
+
+main > section > section + section > div > img{
+    width: 40px;
+}
