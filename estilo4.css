@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    justify-content: space-between;
+    padding: 0 25em;
+    background: slategray;
+    color: whitesmoke;
+}
+
+img{
+    height: 12em;
+}
+
+.menu, .buscar{
+    display: flex;
+    align-items: center;
+}
+
+.seccion{
+    background-image: url("universe.jpg");
+    height: 50em;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
