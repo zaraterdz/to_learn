@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: 900px;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+*{
+    font-family: 'Bakbak One', cursive;
+}
+
+.hola_mundo {
+    letter-spacing: -10px;
+    animation-name: introduccion;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+h1{
+    border: 1px solid white;
+}
+
+body{
+    background: linear-gradient(RGB(35,38,46), RGB(48,74,107));
+    background-attachment: fixed;
+}
+
+@keyframes introduccion {
+    0%{
+        letter-spacing: -10px;
+    }
+
+    50%{
+        letter-spacing: 5px;
+    }
+
+    100% {
+        letter-spacing: -10px;
+    }
+}
+
+.mi_nombre:after{
+    content: 'Alexis Zárate';
+    filter: blur(2px);
+    font-size: 30px;
+    animation-name: nombre;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation
+}
+
+@keyframes nombre {
+    0%{
+        content: 'Alexis Zárate';
+    }
+
+    50%{
+        content: 'Ingeniero';
+    }
+
+    100%{
+        content: 'Alexis Zárate';
+    }
+}
