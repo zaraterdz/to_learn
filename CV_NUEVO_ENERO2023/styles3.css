@@ -1,0 +1,100 @@
+/* ========EMPIEZAN LOS ESTILOS GENERALES DE BODY Y * */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background: linear-gradient(RGB(29,48,97), RGB(62,111,173, 0.9));
+    color: white;
+    background-attachment: fixed;
+}
+/* ========TERMINAN LOS ESTILOS GENERALES DE BODY Y * */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    height: 100vh;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    height: 60vh;
+    width: 50vh;
+    background: linear-gradient(RGB(3,63,140), RGB(8,87,188)) ;
+    border-radius: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.png_yo{
+    width: 200px;
+}
+
+.caja > *{
+    border: 1px solid yellow;
+}
+
+.caja > h1{
+    letter-spacing: -2px;
+    animation-name: ingeniero;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ingeniero {
+    0%{
+        letter-spacing: -2px;
+    }
+
+    50%{
+        letter-spacing: 15px;
+    }
+
+    100%{
+        letter-spacing: -2px;
+    }
+}
+
+.redes_sociales ul{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.redes_sociales ul li{
+    background: RGB(27,99,191);
+    width: 100px;
+    margin: auto;
+}
+
+.html img{
+    position: absolute;
+    top: 150px;
+    left: -200px;
+    width: 150px;
+    animation: html 10s infinite;
+}
+
+@keyframes html {
+    0%{
+        top: 150px;
+        left: -200px;
+        width: 150px;
+    }
+
+    100%{
+        top: 150px;
+        left: 2000px;
+        width: 150px;
+        z-index: -2;
+    }
+}
