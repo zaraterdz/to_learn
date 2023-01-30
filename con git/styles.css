@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background: gray;
+}
+
+.container{
+    display: flex;
+    margin: 5em 3em;
+    justify-content: space-between;
+}
+
+.section{
+    display: flex;
+    margin: 3em 3em;
+    border: 1px solid black
+}
+
+.autor{
+    position: relative;
+    border:1px solid black;
+    width: fit-content;
+    top: 50vh;
+}
