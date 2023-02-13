@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, .descripcion{
+    text-align: center;
+    padding: 0.3em 0;
+}
+
+.negro{
+    background: black;
+    color: white;
+    padding: 3em;
+}
+
+.colores{
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0 0 0;
+}
+
+.rojo{
+    background: red;
+    padding: 1em;
+}
+
+.verde{
+    background: green;
+    padding: 1em;
+}
+
+.azul{
+    background: blue;
+    padding: 1em;
+}
+
+.amarillo{
+    background: yellow;
+    padding: 1em;
+}
+
+.naranja{
+    background: orange;
+    padding: 1em;
+}
+
