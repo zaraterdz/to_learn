@@ -1,0 +1,59 @@
+body{
+    background: #000;
+    border: 1px solid black;
+}
+
+.one{
+    background: white;
+    height: 100vh;
+    width: 100vh;
+}
+
+.two{
+    background: gray;
+    height: 80vh;
+    width: 80vh;
+}
+
+.three{
+    background: rgb(124, 116, 116);
+    height: 60vh;
+    width: 60vh;
+}
+
+.four{
+    background: rgb(119, 101, 101);
+    height: 40vh;
+    width: 40vh;
+}
+
+.five{
+    background: rgb(121, 91, 91);
+    height: 20vh;
+    width: 20vh;
+}
+
+.six{
+    background: rgb(119, 77, 77);
+    height: 10vh;
+    width: 10vh;
+}
+
+.seven{
+    background: rgb(116, 61, 61);
+    height: 5vh;
+    width: 5vh;
+}
+
+.colores{
+    display: flex;
+}
+
+.derecha{
+    position: absolute;
+    top: 50vh;
+    left: 130vh;
+    color: yellow;
+    font-size: 50px;
+    font-family: sans-serif;
+}
